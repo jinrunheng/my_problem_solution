@@ -11,6 +11,7 @@ out/
 .project
 .settings
 .idea
+.gradle
 
 # filter databfile、sln file
 *.mdb
