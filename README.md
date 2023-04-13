@@ -3,4 +3,8 @@
 |问题|解决方案|
 |---|---|
 |DB2 连接报错 `SqlNonTransientConnectionException`，SQLCODE=-1639,SQLSTATE=08001|[Solution](https://github.com/jinrunheng/my_problem_solution/blob/main/doc/database/20230302.md)|
-|决定Bean的加载顺序，以及Configuration的加载顺序|| 
+
+### Java
+|问题|解决方案|
+|---|---|
+|双括号初始化导致的问题，匿名内部类与内存溢出|| 

@@ -1,0 +1,85 @@
+Classfile /Users/macbook/Desktop/myProject/my_problem_solution/src/main/java/test/Test$1.class
+  Last modified 2023年4月13日; size 584 bytes
+  MD5 checksum 4f820c3731d02386a4d5f95df57b3908
+  Compiled from "Test.java"
+class test.Test$1 extends java.util.HashMap<java.lang.String, java.lang.String>
+  minor version: 0
+  major version: 55
+  flags: (0x0020) ACC_SUPER
+  this_class: #6                          // test/Test$1
+  super_class: #7                         // java/util/HashMap
+  interfaces: 0, fields: 1, methods: 1, attributes: 5
+Constant pool:
+   #1 = Fieldref           #6.#22         // test/Test$1.this$0:Ltest/Test;
+   #2 = Methodref          #7.#23         // java/util/HashMap."<init>":()V
+   #3 = String             #24            // foo
+   #4 = Methodref          #6.#25         // test/Test$1.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+   #5 = String             #26            // bar
+   #6 = Class              #27            // test/Test$1
+   #7 = Class              #29            // java/util/HashMap
+   #8 = Utf8               this$0
+   #9 = Utf8               Ltest/Test;
+  #10 = Utf8               <init>
+  #11 = Utf8               (Ltest/Test;)V
+  #12 = Utf8               Code
+  #13 = Utf8               LineNumberTable
+  #14 = Utf8               Signature
+  #15 = Utf8               Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;
+  #16 = Utf8               SourceFile
+  #17 = Utf8               Test.java
+  #18 = Utf8               EnclosingMethod
+  #19 = Class              #30            // test/Test
+  #20 = NameAndType        #31:#32        // initMap:()Ljava/util/Map;
+  #21 = Utf8               NestHost
+  #22 = NameAndType        #8:#9          // this$0:Ltest/Test;
+  #23 = NameAndType        #10:#33        // "<init>":()V
+  #24 = Utf8               foo
+  #25 = NameAndType        #34:#35        // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #26 = Utf8               bar
+  #27 = Utf8               test/Test$1
+  #28 = Utf8               InnerClasses
+  #29 = Utf8               java/util/HashMap
+  #30 = Utf8               test/Test
+  #31 = Utf8               initMap
+  #32 = Utf8               ()Ljava/util/Map;
+  #33 = Utf8               ()V
+  #34 = Utf8               put
+  #35 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+{
+  final test.Test this$0;
+    descriptor: Ltest/Test;
+    flags: (0x1010) ACC_FINAL, ACC_SYNTHETIC
+
+  test.Test$1(test.Test);
+    descriptor: (Ltest/Test;)V
+    flags: (0x0000)
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #1                  // Field this$0:Ltest/Test;
+         5: aload_0
+         6: invokespecial #2                  // Method java/util/HashMap."<init>":()V
+         9: aload_0
+        10: ldc           #3                  // String foo
+        12: ldc           #3                  // String foo
+        14: invokevirtual #4                  // Method put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+        17: pop
+        18: aload_0
+        19: ldc           #5                  // String bar
+        21: ldc           #5                  // String bar
+        23: invokevirtual #4                  // Method put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+        26: pop
+        27: return
+      LineNumberTable:
+        line 23: 0
+        line 24: 9
+        line 25: 18
+        line 26: 27
+}
+Signature: #15                          // Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;
+SourceFile: "Test.java"
+EnclosingMethod: #19.#20                // test.Test.initMap
+NestHost: class test/Test
+InnerClasses:
+  #6;                                     // class test/Test$1
