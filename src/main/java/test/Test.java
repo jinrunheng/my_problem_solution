@@ -11,16 +11,13 @@ import java.util.Map;
  */
 public class Test {
 
-    public static void main(String[] args) throws Exception {
-        Map<String, String> map = new Test().initMap();
-        Field this$0 = map.getClass().getDeclaredField("this$0");
-        this$0.setAccessible(true);
-        // 匿名内部类持有外部类的引用
-        System.out.println(this$0.get(map).getClass());
+    public static void main(String[] args) {
+        Test test = new Test();
+        System.out.println(test.initMap());
     }
 
     public Map<String, String> initMap() {
-        Map<String, String> map = new HashMap<String, String>() {{
+        Map<String, String> map = new HashMap<>() {{
             put("foo", "foo");
             put("bar", "bar");
         }};

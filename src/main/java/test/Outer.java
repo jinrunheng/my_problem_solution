@@ -12,10 +12,10 @@ import java.util.Map;
  */
 public class Outer {
 
-    private int[] data;
+    private byte[] data;
 
-    public Outer(int size) {
-        this.data = new int[size];
+    public Outer() {
+        this.data = new byte[1024 * 1024];
     }
 
     static class Inner {
@@ -31,12 +31,12 @@ public class Outer {
         List<Object> list = new ArrayList<>();
         try {
 
-            while (true) {
-                list.add(new Outer(100000).createInner());
+            while (counter < 10000) {
+                list.add(new Outer().createInner());
                 System.out.println(counter++);
             }
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

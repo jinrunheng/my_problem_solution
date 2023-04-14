@@ -1,6 +1,6 @@
 Classfile /Users/macbook/Desktop/myProject/my_problem_solution/src/main/java/test/Test$1.class
-  Last modified 2023年4月13日; size 584 bytes
-  MD5 checksum 4f820c3731d02386a4d5f95df57b3908
+  Last modified 2023年4月14日; size 584 bytes
+  MD5 checksum b5dff22828a2c7523e7d18449ae60807
   Compiled from "Test.java"
 class test.Test$1 extends java.util.HashMap<java.lang.String, java.lang.String>
   minor version: 0
@@ -72,10 +72,10 @@ Constant pool:
         26: pop
         27: return
       LineNumberTable:
-        line 23: 0
-        line 24: 9
-        line 25: 18
-        line 26: 27
+        line 20: 0
+        line 21: 9
+        line 22: 18
+        line 23: 27
 }
 Signature: #15                          // Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/String;>;
 SourceFile: "Test.java"
